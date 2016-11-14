@@ -21,7 +21,11 @@ pizzaController
 
 
 async function get(ctx, next) {
-  let data = R.map((x) => x.tipo, pizzaData);
+  let data = R.map((x) =>{
+    return(
+      {id: x.id, tipo: x.tipo}
+    );
+  }, pizzaData);
   ctx.body = success('pizza_get', data);
 }
 
