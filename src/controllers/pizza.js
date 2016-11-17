@@ -5,11 +5,11 @@ import R from 'ramda';
 const pizzaController = koaRouter();
 
 const pizzaData = [
-  {id: 0, tipo: 'calabresa', tamanho: 'grande', borda: 'no'},
-  {id: 1, tipo: 'mussarela', tamanho: 'grande', borda: 'no'},
-  {id: 2, tipo: 'quatro queijos', tamanho: 'grande', borda: 'no'},
-  {id: 3, tipo: 'peperoni', tamanho: 'grande', borda: 'no'},
-  {id: 4, tipo: 'portuguesa', tamanho: 'grande', borda: 'no'},
+  {id: 0, tipo: 'calabresa'},
+  {id: 1, tipo: 'mussarela'},
+  {id: 2, tipo: 'quatro queijos'},
+  {id: 3, tipo: 'peperoni'},
+  {id: 4, tipo: 'portuguesa'},
 ];
 
 pizzaController
